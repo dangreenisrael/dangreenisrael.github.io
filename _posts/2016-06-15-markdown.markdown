@@ -1,0 +1,76 @@
+---
+layout:     post
+title:      "Markdown"
+subtitle:   "The latest greatest markup language that totally isn't markup"
+author:     "Dan"
+header-img: "img/post-bg-04.jpg"
+---
+
+## What is it?
+According to it's [creator](http://daringfireball.net/projects/markdown/) :
+
+Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
+
+What that means is that its a set of standards that lets anyone write text that has formatting (bold, italic, etc) as they go, in a format that can be copied and pasted into blogs, different programs, and many other places that support it. While markdown was originally designed for the web, its also great for students taking notes, as it is much faster and easier to user (in my opinion) than MS Word, Google Docs or even Apple Pages. In fact, all of the text on this site is written with markdown.
+
+Now that you know what markdown is and why its so great, here are some basics of how to use it.
+
+## How to use it
+### Stuff for everyone (web people and note takers)
+#### Bolding and Italicizing Text
+In most word processors, to make something bold/italic you hit `ctrl+b` or `ctrl+i` or both to make it both. While this is admitedly easy it's even easier in markdown
+- *`*italic*`*
+- **`**bold**`**
+- ***`***bold and italic***`***
+
+#### Lists
+Making lists is different between different work processing programs, and can often be clunky and result in spending huge amounts of time formatting and reformatting. In markdown its this simple
+- `-bullet 1`
+- `-bullet 2`
+- `-bullet 3`
+1. `1. Number 1`
+2. `2. Number 2`
+1. ` 1. Number 2-1`
+2. ` 2. Number 2-2 `
+3. `3. Number 3`
+
+#### Headings
+When you have a big document, headings can make it much more organized and readable. With a word processor making heading can be a pain, choosing font sizes stopping typing to click a heading. Markdown uses the HTML system of heading (h1 is the page heading, h2 is main sections, h3 subsection, ... h6).
+<span class="h1"> `# h1`</span>
+<span class="h2"> `## h2`</span>
+<span class="h3"> `### h3`</span>
+<span class="h4"> `#### h4`</span>
+<span class="h5"> `##### h5`</span>
+<span class="h6"> `###### h6`</span>
+
+#### Links
+Links are the worst, every program handles them differently, and when you copy and paste something (i.e. into an email) you lose the link. Markdown makes linking easy and clear.
+`[Some Link](http://somelink.com)`
+
+### Stuff mainly for web people
+### Images
+While the creators of markdown had a hard time coming up with a natural syntax for images, they did their best, and here it is
+`![Picture of a Cat](http://www.referralsaasquatch.com/assets/cute-cat.jpg "Caption for the cat pic")`
+![Picture of a Cat](;http://www.referralsaasquatch.com/assets/cute-cat.jpg' "Caption for the cat pic")
+
+### Code blocks
+Markdown not only specifies code blocks, but also allows you to mark code for highlighting - this is especially important for bloggings like this and GitHub documentation.
+<pre>```php
+echo "This a block of code";
+echo "This too";
+echo "This as well"
+```
+</pre>
+```php
+echo "This a block of code";
+echo "This too";
+echo "This as well"
+```
+<pre>`echo "This is inline code";`
+</pre>
+`echo "This is inline code";`
+
+## Final Thoughts
+Markdown is really a fantastic language, and its only made possible by the hard work of the good people at [Daring Fireball](https://daringfireball.net/projects/markdown/).
+
+I personally recommend using the program [Classeur](http://classeur.io/), its a clean interface, lets you export to HTML, Word and PDF and you get a great product for free ($5 if you want some premium features or just want to support the developers).
