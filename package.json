@@ -1,9 +1,9 @@
 {
-    "name": "clean-blog",
-    "title": "Clean Blog",
+    "name": "dan-green-blog",
+    "title": "Dan Green-Leipciger's Blog",
     "version": "1.0.0",
-    "homepage": "http://startbootstrap.com",
-    "author": "Start Bootstrap",
+    "homepage": "https://dangreenisrael.github.io/",
+    "author": "Dan Green",
     "license": "MIT",
     "devDependencies": {
         "grunt": "~0.4.5",
@@ -11,9 +11,5 @@
         "grunt-contrib-watch": "~0.6.1",
         "grunt-banner": "~0.2.3",
         "grunt-contrib-uglify": "~0.5.1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll.git"
     }
 }
